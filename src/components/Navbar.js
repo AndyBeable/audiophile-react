@@ -12,11 +12,14 @@ function Navbar() {
   return (
     <>
       <nav className='navbar'>
+        <div className='menu-icon' onClick={handleClick}>
+          <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+        </div>
         <Link to='/' className='navbar-logo'>
           audiophile
         </Link>
-        <div className='menu-icon' onClick={handleClick}>
-          <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+        <div className='cart-icon' onClick={handleClick}>
+          <i className='fas fa-shopping-cart' />
         </div>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li className='nav-item'>
