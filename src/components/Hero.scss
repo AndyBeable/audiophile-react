@@ -1,6 +1,7 @@
 .section {
   padding: 0 2rem;
-  background-color: hsl(0, 0%, 6%);
+  // background-color: hsl(0, 0%, 6%);
+  position: relative;
 
   &::before {
     background-image: url(../assets/home/mobile/image-header.jpg);
@@ -11,11 +12,27 @@
     display: block;
     left: 0;
     position: absolute;
-    top: 10%;
+    top: -2%;
     width: 100%;
     height: 100vh;
+    z-index: -1;
   }
 }
 
-.tagline {
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  z-index: 1;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 15rem 0rem;
+}
+.tagline,
+.title,
+.description {
+  color: hsl(0, 100%, 100%);
 }
