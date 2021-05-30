@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Hero.scss';
+import './Hero.scss';
 import Button from './shared/Button/Button';
 
 function Hero() {
