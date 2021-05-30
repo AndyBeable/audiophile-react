@@ -1,6 +1,7 @@
+@import '/src/style/typography';
+
 .section {
   padding: 0 2rem;
-  // background-color: hsl(0, 0%, 6%);
   position: relative;
 
   &::before {
@@ -35,4 +36,18 @@
 .title,
 .description {
   color: hsl(0, 100%, 100%);
+}
+
+.tagline,
+.description {
+  opacity: 0.5;
+}
+
+.title {
+  @include HeadingOne;
+  padding: 16px 0 24px;
+}
+
+.tagline {
+  @include Overline;
 }
