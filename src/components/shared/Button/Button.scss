@@ -1,0 +1,21 @@
+@import '../../../style/variables';
+
+.button {
+  border: 1px solid transparent;
+  cursor: pointer;
+  padding: 16px 30px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.primary {
+  @extend .button;
+  background: $orange;
+  color: $white;
+  letter-spacing: 1.2px;
+
+  &:hover {
+    // background: hsl(22, 93%, 75%);
+  }
+}
