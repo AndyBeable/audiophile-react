@@ -1,12 +1,14 @@
 import React from 'react';
 import './ProductGridItem.scss';
-import Speakers from '../assets/shared/desktop/image-headphones.png';
 
-const ProductGridItem = () => {
+const ProductGridItem = (props) => {
   return (
     <div className='card'>
       <div className='img_container'>
-        <img src={Speakers} alt='' className='productImg' />
+        <img src={props.img} alt='' className='productImg' />
+      </div>
+      <div className='link_container'>
+        <h6 className='category_title'>{props.category}</h6>
       </div>
     </div>
   );
