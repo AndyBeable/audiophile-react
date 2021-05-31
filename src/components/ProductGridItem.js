@@ -9,6 +9,7 @@ const ProductGridItem = (props) => {
       </div>
       <div className='link_container'>
         <h6 className='category_title'>{props.category}</h6>
+        <a href='#'>Shop</a>
       </div>
     </div>
   );

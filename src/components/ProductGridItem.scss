@@ -3,27 +3,33 @@
 }
 
 .card:not(:last-of-type) {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .card::after {
   content: '';
   position: absolute;
-  height: 150px;
+  height: 130px;
   background-color: #f1f1f1;
-  top: 50px;
-  left: 40px;
+  top: 60px;
+  left: 0;
   border-radius: 10px;
-  width: 80%;
+  width: 90%;
   z-index: -1;
+  margin: 0 1rem;
 }
 
 .productImg {
-  width: 50%;
+  width: 40%;
+  padding-bottom: 2rem;
 }
 
 .category_title {
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.link_container {
+  margin-top: -50px;
 }
