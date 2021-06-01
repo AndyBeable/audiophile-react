@@ -1,6 +1,7 @@
 import React from 'react';
 import Speaker from '../assets/shared/desktop/image-speakers.png';
 import './SpeakerHighlightCard.scss';
+import Button from './shared/Button/Button';
 
 const SpeakerHighlightCard = () => {
   return (
@@ -12,6 +13,7 @@ const SpeakerHighlightCard = () => {
           Upgrade to premium speakers that are phenomenally built to deliver
           truly remarkable sound.
         </p>
+        <Button style={{ backgroundColor: 'red' }} />
       </div>
     </div>
   );
