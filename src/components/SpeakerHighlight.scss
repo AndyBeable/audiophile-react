@@ -1,0 +1,11 @@
+@import '../style/variables';
+
+.container {
+  background-color: $orange;
+  margin: 0 1.2rem;
+  border-radius: 10px;
+  height: 500px;
+  background-image: url(../assets/home/desktop/pattern-circles.svg);
+  background-size: cover;
+  background-position: center;
+}

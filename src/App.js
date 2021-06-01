@@ -3,6 +3,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import './style/styles.scss';
 import Hero from './components/Hero';
 import ProductGrid from './components/ProductGrid';
+import SpeakerHighlight from './components/SpeakerHighlight';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Hero />
       <ProductGrid />
+      <SpeakerHighlight />
     </Router>
   );
 }
