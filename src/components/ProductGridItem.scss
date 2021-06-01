@@ -11,7 +11,7 @@
 .card::after {
   content: '';
   position: absolute;
-  height: 130px;
+  height: 155px;
   background-color: #f1f1f1;
   top: 60px;
   left: 0;
@@ -42,5 +42,6 @@
     text-transform: uppercase;
     font-weight: 500;
     letter-spacing: 1.5px;
+    padding-right: 5px;
   }
 }

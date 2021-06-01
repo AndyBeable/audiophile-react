@@ -1,5 +1,6 @@
 import React from 'react';
 import './ProductGridItem.scss';
+import Chevron from '../assets/shared/desktop/icon-arrow-right.svg';
 
 const ProductGridItem = (props) => {
   return (
@@ -10,6 +11,7 @@ const ProductGridItem = (props) => {
       <div className='link_container'>
         <h6 className='category_title'>{props.category}</h6>
         <a href='#'>Shop</a>
+        <img src={Chevron} />
       </div>
     </div>
   );
