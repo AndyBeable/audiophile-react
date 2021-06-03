@@ -1,9 +1,9 @@
 import React from 'react';
 import Speaker from '../assets/shared/desktop/image-speakers.png';
-import './SpeakerHighlightCard.scss';
+import './ZX9SpeakerCard.scss';
 import Button from './shared/Button/Button';
 
-const SpeakerHighlightCard = () => {
+const ZX9SpeakerCard = () => {
   return (
     <div className='speaker_container'>
       <img src={Speaker} />
@@ -19,4 +19,4 @@ const SpeakerHighlightCard = () => {
   );
 };
 
-export default SpeakerHighlightCard;
+export default ZX9SpeakerCard;
