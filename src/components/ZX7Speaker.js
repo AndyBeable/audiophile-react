@@ -4,7 +4,7 @@ import './ZX7Speaker.scss';
 
 const ZX7Speaker = () => {
   return (
-    <div className='container'>
+    <div className='zx7-container'>
       <ZX7SpeakerCard />
     </div>
   );
