@@ -5,13 +5,17 @@ const Footer = () => {
   return (
     <div className='footer'>
       <div className='footer_container'>
-        <h3>audiophile</h3>
-        <ul>
-          <li>Home</li>
-          <li>Headphones</li>
-          <li>Speakers</li>
-          <li>Earphones</li>
-        </ul>
+        <div className='footer_heading'>
+          <h3>audiophile</h3>
+        </div>
+        <div className='footer_links_container'>
+          <ul className='footer_links'>
+            <li>Home</li>
+            <li>Headphones</li>
+            <li>Speakers</li>
+            <li>Earphones</li>
+          </ul>
+        </div>
         <div>
           <p>
             Audiophile is an all in one stop to fulfill your audio needs. We're

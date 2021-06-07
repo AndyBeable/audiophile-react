@@ -5,4 +5,22 @@
   background: black;
   color: $white;
   text-align: center;
+
+  &_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: 0 auto;
+    height: 600px;
+  }
+
+  &_links {
+    list-style: none;
+    text-transform: uppercase;
+  }
+
+  &_links li:not(:last-of-type) {
+    margin-bottom: 1rem;
+  }
 }
