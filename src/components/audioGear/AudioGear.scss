@@ -1,0 +1,29 @@
+@import '../../style/variables';
+
+.audiogear {
+  &_img {
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  &_copy_container {
+    text-align: center;
+  }
+
+  &_copy_container h2 {
+    text-transform: uppercase;
+    font-size: 36px;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+  }
+
+  &_copy_span {
+    color: $orange;
+  }
+
+  &_paragraph {
+    line-height: 1.8rem;
+    color: $darkgray;
+  }
+}

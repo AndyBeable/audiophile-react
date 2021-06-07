@@ -6,6 +6,7 @@ import ProductGrid from './components/productGrid/ProductGrid';
 import Zx9Container from './components/zx9/Zx9Container';
 import Zx7Container from './components/zx7/Zx7Container';
 import Yx1Container from './components/yx1/Yx1Container';
+import AudioGearContainer from './components/audioGear/AudioGearContainer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Zx9Container />
       <Zx7Container />
       <Yx1Container />
+      <AudioGearContainer />
     </Router>
   );
 }
