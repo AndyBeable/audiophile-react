@@ -5,6 +5,7 @@ import Hero from './components/hero/Hero';
 import ProductGrid from './components/productGrid/ProductGrid';
 import Zx9Container from './components/zx9/Zx9Container';
 import Zx7Container from './components/zx7/Zx7Container';
+import Yx1Container from './components/yx1/Yx1Container';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <ProductGrid />
       <Zx9Container />
       <Zx7Container />
+      <Yx1Container />
     </Router>
   );
 }

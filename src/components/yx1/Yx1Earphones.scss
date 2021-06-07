@@ -1,0 +1,26 @@
+@import '../../style/variables';
+
+.yx1 {
+  &_img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+  }
+
+  &_content_container {
+    border-radius: 10px;
+    background-color: $lightgray;
+    display: flex;
+    flex-direction: column;
+
+    // align-items: center;
+    text-align: left;
+    padding: 2rem;
+  }
+
+  &_title {
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    margin-bottom: 2rem;
+  }
+}
