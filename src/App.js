@@ -4,6 +4,7 @@ import './style/styles.scss';
 import Hero from './components/hero/Hero';
 import ProductGrid from './components/productGrid/ProductGrid';
 import Zx9Container from './components/zx9/Zx9Container';
+import Zx7Container from './components/zx7/Zx7Container';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <ProductGrid />
       <Zx9Container />
+      <Zx7Container />
     </Router>
   );
 }

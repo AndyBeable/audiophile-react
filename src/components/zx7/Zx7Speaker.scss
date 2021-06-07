@@ -1,0 +1,18 @@
+.zx7 {
+  background-image: url('../../assets/home/mobile/image-speaker-zx7.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 500px;
+  border-radius: 10px;
+
+  &_content_container {
+    display: flex;
+
+    // justify-content: center;
+    flex-direction: column;
+  }
+
+  &_title {
+    text-transform: uppercase;
+  }
+}
