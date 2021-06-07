@@ -15,12 +15,39 @@
     height: 600px;
   }
 
+  &_heading {
+    font-size: 32px;
+    margin-bottom: 2rem;
+  }
+
   &_links {
     list-style: none;
     text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 2rem;
   }
 
   &_links li:not(:last-of-type) {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  &_paragraph {
+    color: $darkgray;
+    line-height: 1.8rem;
+    margin-bottom: 2rem;
+  }
+
+  &_copyright {
+    color: $darkgray;
+    font-weight: 700;
+    margin-bottom: 3rem;
+  }
+
+  &_social img {
+    height: 2rem;
+  }
+
+  &_social img:not(:last-of-type) {
+    margin-right: 1.5rem;
   }
 }
