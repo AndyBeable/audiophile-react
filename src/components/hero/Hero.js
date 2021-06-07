@@ -1,6 +1,6 @@
 import React from 'react';
-import './Hero.scss';
-import Button from './shared/Button/Button';
+import '../hero/Hero.scss';
+import Button from '../shared/Button/Button';
 
 function Hero() {
   return (

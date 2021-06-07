@@ -1,10 +1,9 @@
-import Navbar from './components/Navbar';
+import Navbar from './components/navbar/Navbar';
 import { BrowserRouter as Router } from 'react-router-dom';
 import './style/styles.scss';
-import Hero from './components/Hero';
-import ProductGrid from './components/ProductGrid';
-import ZX9Speaker from './components/ZX9Speaker';
-import ZX7Speaker from './components/ZX7Speaker';
+import Hero from './components/hero/Hero';
+import ProductGrid from './components/productGrid/ProductGrid';
+import Zx9Container from './components/zx9/Zx9Container';
 
 function App() {
   return (
@@ -12,8 +11,7 @@ function App() {
       <Navbar />
       <Hero />
       <ProductGrid />
-      <ZX9Speaker />
-      <ZX7Speaker />
+      <Zx9Container />
     </Router>
   );
 }

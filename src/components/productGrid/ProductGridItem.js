@@ -1,6 +1,6 @@
 import React from 'react';
-import './ProductGridItem.scss';
-import Chevron from '../assets/shared/desktop/icon-arrow-right.svg';
+import '../productGrid/ProductGridItem.scss';
+import Chevron from '../../assets/shared/desktop/icon-arrow-right.svg';
 
 const ProductGridItem = (props) => {
   return (
