@@ -19,3 +19,9 @@
     // background: hsl(22, 93%, 75%);
   }
 }
+
+.secondary {
+  @extend .button;
+  background: black;
+  color: $white;
+}
