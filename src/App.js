@@ -7,6 +7,7 @@ import Zx9Container from './components/zx9/Zx9Container';
 import Zx7Container from './components/zx7/Zx7Container';
 import Yx1Container from './components/yx1/Yx1Container';
 import AudioGearContainer from './components/audioGear/AudioGearContainer';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Zx7Container />
       <Yx1Container />
       <AudioGearContainer />
+      <Footer />
     </Router>
   );
 }
