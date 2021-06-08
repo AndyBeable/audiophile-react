@@ -1,6 +1,10 @@
 @import '../../../style/variables';
 
-.button {
+:root {
+  --primary: #fff;
+}
+
+.btn {
   border: 1px solid transparent;
   cursor: pointer;
   padding: 16px 30px;
@@ -9,19 +13,18 @@
   text-transform: uppercase;
 }
 
-.primary {
-  @extend .button;
-  background: $orange;
-  color: $white;
-  letter-spacing: 1.2px;
-
-  &:hover {
-    // background: hsl(22, 93%, 75%);
-  }
+.btn--primary {
+  background-color: $orange;
+  color: #f1f1f1;
 }
 
-.secondary {
-  @extend .button;
-  background: black;
-  color: $white;
+.btn--dark {
+  background-color: #000;
+  color: #f1f1f1;
+}
+
+.btn--outline {
+  background-color: transparent;
+  color: #000;
+  border: 1px solid #000;
 }

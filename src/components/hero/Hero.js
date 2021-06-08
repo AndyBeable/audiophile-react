@@ -1,6 +1,6 @@
 import React from 'react';
 import '../hero/Hero.scss';
-import Button from '../shared/Button/Button';
+import { Button } from '../shared/Button/Button';
 
 function Hero() {
   return (
@@ -13,7 +13,7 @@ function Hero() {
             Experience natural, lifelike audio and exceptional build quality
             made for the passionate music enthusiast.
           </p>
-          <Button>See product</Button>
+          <Button buttonStyle='btn--primary'>See Product</Button>
         </div>
       </div>
     </section>

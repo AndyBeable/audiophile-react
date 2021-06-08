@@ -1,7 +1,8 @@
 import React from 'react';
 import './Zx9Speaker.scss';
 import ZX9 from '../../assets/home/desktop/image-speaker-zx9.png';
-import Button from '../shared/Button/Button';
+import { Button } from '../shared/Button/Button';
+import '../shared/Button/Button.scss';
 
 const Zx9Speaker = () => {
   return (
@@ -13,7 +14,7 @@ const Zx9Speaker = () => {
           Upgrade to premium speakers that are phenomenally built to deliver
           truly remarkable sound
         </p>
-        <Button className='secondary' />
+        <Button buttonStyle='btn--dark'>See Product</Button>
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '../shared/Button/Button';
+import { Button } from '../shared/Button/Button';
 import YX1 from '../../assets/home/desktop/image-earphones-yx1.jpg';
 import './Yx1Earphones.scss';
 
