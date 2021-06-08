@@ -11,7 +11,7 @@ const Yx1Earphones = () => {
       </div>
       <div className='yx1_content_container'>
         <h2 className='yx1_title'>YX1 Earphones</h2>
-        <Button />
+        <Button buttonStyle='btn--outline'>See Product</Button>
       </div>
     </div>
   );

@@ -15,7 +15,7 @@ export const Button = ({
     : STYLES[0];
 
   return (
-    <Link to='/' className='btn'>
+    <Link to='/earphones' className='btn'>
       <button
         className={`btn ${checkButtonStyle}`}
         onClick={onClick}
