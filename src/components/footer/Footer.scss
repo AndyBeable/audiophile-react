@@ -21,11 +21,31 @@
     margin-bottom: 2rem;
   }
 
+  &_heading a {
+    text-decoration: none;
+    text-decoration: none;
+    color: $white;
+    cursor: pointer;
+  }
+
   &_links {
     list-style: none;
     text-transform: uppercase;
     letter-spacing: 3px;
     margin-bottom: 2rem;
+  }
+
+  &_links a {
+    text-decoration: none;
+    color: $white;
+    cursor: pointer;
+  }
+  &_links:visited {
+    text-decoration: none;
+  }
+
+  &_links a:hover {
+    color: $orange;
   }
 
   &_links li:not(:last-of-type) {

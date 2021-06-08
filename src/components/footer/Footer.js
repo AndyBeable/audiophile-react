@@ -9,14 +9,24 @@ const Footer = () => {
     <div className='footer'>
       <div className='footer_container'>
         <div className='footer_heading'>
-          <h3>audiophile</h3>
+          <h3>
+            <a href='/'>audiophile</a>
+          </h3>
         </div>
         <div className='footer_links_container'>
           <ul className='footer_links'>
-            <li>Home</li>
-            <li>Headphones</li>
-            <li>Speakers</li>
-            <li>Earphones</li>
+            <li>
+              <a href='/'>Home</a>
+            </li>
+            <li>
+              <a href='/headphones'>Headphones</a>
+            </li>
+            <li>
+              <a href='/speakers'>Speakers</a>
+            </li>
+            <li>
+              <a href='/earphones'>Earphones</a>
+            </li>
           </ul>
         </div>
         <div className='footer_paragraph'>
